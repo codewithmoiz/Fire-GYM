@@ -1,0 +1,274 @@
+body {
+  background: url("gym.jpg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar-brand {
+  color: rgb(255, 102, 0);
+}
+
+.fire {
+  color: orangered;
+  transition: color 0.3s;
+}
+
+.gym {
+  color: white;
+  transition: color 0.3s;
+}
+
+.navbar-brand:hover .fire {
+  color: white;
+}
+
+.navbar-brand:hover .gym {
+  color: orangered;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler {
+  border-color: white;
+}
+
+.container-fluid h2,
+.navbar a {
+  font-family: 'Merri', sans-serif;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@font-face {
+  font-family: 'Merri';
+  src: url('MerriweatherSans-VariableFont_wght.ttf'), url('MerriweatherSans-Italic-VariableFont_wght.ttf'), ;
+}
+
+.navbar-nav .nav-link {
+  position: relative;
+}
+
+.navbar-nav .nav-link::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: white;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover::before,
+.navbar-nav .nav-link:focus::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.sty:hover{
+  background-color: orangered;
+}
+
+.container-align-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+@font-face {
+  font-family: 'Fjalla';
+  src: url('FjallaOne-Regular.ttf');
+}
+
+.sec-head{
+  font-family: 'Fjalla';
+  letter-spacing: 3px;
+}
+
+/* custom.css */
+
+.img-fluid:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s;
+}
+
+.img-fluid {
+  transition-delay: 0s !important;
+}
+
+/* MAIN SECTION */
+
+.container-align-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 200px);
+}
+
+.white-section {
+  background-color: #0a0a0a;
+  padding: 50px 0;
+}
+
+.white-section h1 {
+  text-align: center;
+  color: black;
+}
+
+.sec-head{
+  color: white !important;
+}
+
+.set{
+  width: 200px;
+  height: 200px;
+}
+
+.bd{
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.reg{
+  background-image: url('background.jpg');
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.reg h1{
+  font-family: 'Fjalla';
+}
+
+.txt{
+  color: #c4c4c4;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 25px;
+}
+
+.custom-item{
+  background-color: #0a0a0a;
+  border: none;
+}
+
+.pri{
+  background-color: orangered;
+  border-color: white;
+}
+
+/* SLIDER  */
+
+.carousel-slider {
+  background-color: #f5f5f5;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  display: none;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+}
+
+.slider-paragraph {
+  margin-bottom: 5px;
+}
+
+.slider-heading {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.carousel {
+  max-width: 100%;
+  height: auto;
+}
+
+.carousel-inner {
+  max-width: 100%;
+  height: auto;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.carousel-wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.bt{
+  background-color: grey;
+  border-color: white;
+}
+
+.bt:hover{
+  background-color: orangered;
+  border-color: white;
+  transition: 0.3s ease-in-out;
+}
+
+input:hover{
+  border-color: orangered;
+}
+
+.form-label {
+  color: white;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.footer-heading {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: orangered;
+}
+
+.footer-bottom {
+  border-top: 1px solid #555;
+  padding-top: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
