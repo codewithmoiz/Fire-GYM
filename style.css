@@ -1,8 +1,9 @@
 body {
-  background: url("gym.jpg.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+    background: url(gym.jpg.jpg);
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
 }
 
 .navbar-brand {
@@ -96,7 +97,7 @@ body {
 
 .img-fluid:hover {
   transform: scale(1.1);
-  transition: transform 0.3s;
+  transition: transform 0.5s;
 }
 
 .img-fluid {
